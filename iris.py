@@ -57,7 +57,7 @@ def calculate_accuracy(df):
     r3 = Radiobutton(f2, text="KNN Accuracy " + str("{:.2f}".format(knn_acc)), variable=var,value=3).grid(row="5", column='1',sticky=W)
     Label(f2, text='Step 3:', height='1', padx=5, pady=2, bd=3).grid(row=6, column=0)
     Label(f2, text='Define the model', height='1', padx=5, pady=2,bd=3).grid(row=6, column=1, sticky=W)
-    Button(f2, text="Calculate accuracy", height='1', width="18", padx=5, pady=2, bd=3, font=("Helvetica", 8),command=define_model).grid(row=6, column=2)
+    Button(f2, text="Define the model" height='1', width="18", padx=5, pady=2, bd=3, font=("Helvetica", 8),command=define_model).grid(row=6, column=2)
 
     root.geometry("705x250")
 
